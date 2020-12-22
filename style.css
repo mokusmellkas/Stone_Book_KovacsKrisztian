@@ -1,0 +1,27 @@
+div div{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: lightcoral;
+    padding-top: 1%;
+}
+div code{
+    background-color: rgba(240, 230, 140, 0.185);
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgba(58, 59, 58, 0.507);
+}
+body {
+    text-align: center;
+    margin: 5%;
+    padding: 1%;
+border-style: double;
+outline: none;
+border-color: #ed9edc;
+box-shadow: 0 0 10px #cc69ccbe;
+background-color: rgba(128, 232, 240, 0.068);
+}
+button {
+    background-color: #ecd88073;
+    padding: 1%;
+    position: absolute;
+    top: 12%;
+    left: 6%;
+  }
