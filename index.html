@@ -7,7 +7,11 @@
   <title>StoneBook-HighlightJS</title>
   <link rel="stylesheet" href="./style.css">
   <script src="./script.js"></script>
-
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
   <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
 
@@ -19,6 +23,42 @@
 
   
   </div>
+  <div>
+     <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="/css/horse.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/malac.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/okor.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/pulya.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/tehen.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/tyuk.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/kacsa.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/csibe.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/puli.jpg" width="600px" alt=""></div>
+      <div class="swiper-slide"><img src="/css/lud.jpg" width="600px" alt=""></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+  <!-- Swiper JS -->
+  <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
+  </div>
+
 </body>
 
 </html>
